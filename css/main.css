@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+.masthead {
+    background-image: url("../images/logo.svgz"), url("../images/cup.png");   
+    background-size: 75px auto, 200px auto, 200px auto;
+    background-repeat: no-repeat, repeat;
+    padding-top: 6em; 
+    background-position: center 10px, left top; /*can use pixels to position as well*/
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    display: block;    
+}
+
+.box {
+    background-color: #3b3a33;
+    padding: 1em;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 0.75em;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #a8ae98;
+    background-image: linear-gradient(180deg, #a8ae98, #5b5e52)
+}
